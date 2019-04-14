@@ -5,15 +5,15 @@
 def fizzbuzz(num)
   
   if num % 5 == 0 
-    "Buzz"
+    return "Buzz"
   end
   
   if num % 3 == 0
-    "Fizz"
+    return "Fizz"
   end
   
   if num % 15 == 0 
-    "FizzBuzz"
+    return "FizzBuzz"
   end
   
 end
