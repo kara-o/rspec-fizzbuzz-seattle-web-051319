@@ -7,6 +7,6 @@ def fizzbuzz
     "Buzz"
   if num % 3 == 0
     "Fizz"
-  if num % 15 !== 0 
+  if num % 15 != 0 
     "nil"
 end
