@@ -16,7 +16,4 @@ def fizzbuzz(num)
     "FizzBuzz"
   end
   
-  if num % 15 != 0 
-    "nil"
-  end
 end
